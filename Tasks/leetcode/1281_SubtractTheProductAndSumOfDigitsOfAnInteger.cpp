@@ -11,8 +11,6 @@ public:
 
             product *= val;
             sum += val;
-
-            std::cout << n << " : " << val << std::endl;
         }
 
         return product - sum;
